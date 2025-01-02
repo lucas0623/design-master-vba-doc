@@ -18,5 +18,5 @@ The workbook contains the following components:
  6. **Design Worksheet –** this refers to any typical design worksheet we used in our daily design work. The template DM Workbook does not contain any design worksheet. The user shall import their own design worksheet according to their need.
 
 The below figure outlined the data flow of the add-in, and how the data are processed and handled by the macro in different worksheets.
-![[{2B4544C3-45D9-49E2-A1B2-8F35A05D9092}.png]]
-![[Pasted image 20241230110707.png]]
+![[../../../Z_System/Attachment/{2B4544C3-45D9-49E2-A1B2-8F35A05D9092}.png]]
+![[../../../Z_System/Attachment/Pasted image 20241230110707.png]]

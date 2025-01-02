@@ -14,7 +14,7 @@ The data transferring process is summarized below:
 	2. Transfer the data to the design worksheet 
 2. Calculate the sheet.
 3. Return data from the *Design Worksheet* to *Summary Sheet*. Similar logic to the input.
-![[Pasted image 20250102104721.png]]
+![[../../../Z_System/Attachment/Pasted image 20250102104721.png]]
 ### 1.2	Data Transferring Process Based on *Design Worksheet Group* in `DesignWsGroupData`
 The data transferring process in *Design Worksheet Group* is similar to *Design Worksheet*. The process is summarized below:
 1. For each *Design Worksheet* in *Design Worksheet Group* 
@@ -31,4 +31,4 @@ The data transferring process in *Design Worksheet Group* is similar to *Design 
 2. The design worksheet shall be a single worksheet. It is suggested to avoid worksheet input referencing the calculation of other worksheet (but look up of static data from other worksheet is ok, e.g. look up properties from steel section table).
 ## 3	Review Matched Tag in Summary Sheet
 You can use `Design Master Tab > View Tag of Design Worksheets` to check if the tags in the *Summary Sheet* matched the *Design Worksheet* Input and Output
-![[{C8CB3610-6F34-4324-97F3-2723D677DA75}.png]]
+![[../../../Z_System/Attachment/{C8CB3610-6F34-4324-97F3-2723D677DA75}.png]]

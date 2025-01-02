@@ -8,4 +8,4 @@ draft: false
 - Allow default input value. When this option is used, the value specified in the *Summary Sheet* will be ignored.
 
 Below shows an example of the *Design Worksheet Group* 'D44'.
-![[Pasted image 20250102102149.png]]
+![[../../../Z_System/Attachment/Pasted image 20250102102149.png]]
