@@ -8,7 +8,7 @@ This excel add-in addressed the issue by streamlining the daily design process w
 2. Extracting relevant design data from the imported information based on user specifications;
 3. Performing bulk design calculations using your own spreadsheets and exporting the results in PDF format. 
 
-![[../../../Z_System/Attachment/Pasted image 20250102141621.png]]
+![[Pasted image 20250102141621.png]]
 
 
 ## 2	Feature
