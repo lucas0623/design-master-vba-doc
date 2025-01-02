@@ -2,7 +2,7 @@
 draft: false
 ---
 After data is imported to the workbook, you may extract frame force data with `Design Master Tab > Extract Frame Force to Summary Table > by Correspondence Cases`. A userform will appear which give you a selection of option to process and extract data as per your need. The choice of options will be saved and loaded in the next time automatically for certain summary sheet.
-![[../../../quartz/Z_System/Attachment/{4A018596-A4C9-427F-BB88-9E23F5B07744}.png]]
+![[{4A018596-A4C9-427F-BB88-9E23F5B07744}.png]]
 ## 1	Description of Each Parameter
 Filters - to filter certain properties
 - Section Filter
@@ -36,18 +36,18 @@ The code logic can the simplified in the following steps:
 Below are some suggested frame extraction setting under different situations for reference.
 - Steel Member Design (Preliminary) 
 	- By section
-	- ![[../../../quartz/Z_System/Attachment/{5E318AF5-F723-4B6B-9C4A-CA3728FEBD0A}.png]]
+	- ![[{5E318AF5-F723-4B6B-9C4A-CA3728FEBD0A}.png]]
 - Steel Member Design (Detail) - Design for each element at all positions.
-	- By Member (WITHOUT identified member using `process model data`). ![[../../../quartz/Z_System/Attachment/{B171415B-D729-4EEA-9D63-CE6255451401} 1.png]]
+	- By Member (WITHOUT identified member using `process model data`). ![[{B171415B-D729-4EEA-9D63-CE6255451401} 1.png]]
 - Pile Design - 
 	- By Member (WITHOUT identified member using `process model data`) 
-	- Design for each pile ![[../../../quartz/Z_System/Attachment/{BE281E6C-27C8-4A35-98AF-BAD95995E1D8}.png]]
+	- Design for each pile ![[{BE281E6C-27C8-4A35-98AF-BAD95995E1D8}.png]]
 - RC Beam Design
 	- Calculation at each position
 	- Direction of moment is important.
-	- By member (with identified member) ![[../../../quartz/Z_System/Attachment/{AFC36256-3CBC-4895-8672-5F077792B6CE}.png]]
+	- By member (with identified member) ![[{AFC36256-3CBC-4895-8672-5F077792B6CE}.png]]
 - Plotting BMD Diagram
 	- extract Max and Min value seperately
 	- Can be multiple load combinations if only plotting for BMD
 	- Uncheck 'create permutation'
-	- By Member (with Identified member) ![[../../../quartz/Z_System/Attachment/{FDEE6449-1728-403F-93C4-CC6E8A2608C3}.png]]
+	- By Member (with Identified member) ![[{FDEE6449-1728-403F-93C4-CC6E8A2608C3}.png]]

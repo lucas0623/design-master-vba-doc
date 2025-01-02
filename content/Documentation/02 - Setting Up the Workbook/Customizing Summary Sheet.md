@@ -13,7 +13,7 @@ Hence, understanding the behaviour of these 2 processes will help you understand
 - 'targetWS' tag.
 - System tag for Data Extraction Process.
 - Any other customized tags for Summary to Design Process.
-![[../../../quartz/Z_System/Attachment/Pasted image 20250102134643.png]]
+![[Pasted image 20250102134643.png]]
 ## 3	Custom Tag
 The tags in Summary Sheet can be grouped into 3 categories:
 
