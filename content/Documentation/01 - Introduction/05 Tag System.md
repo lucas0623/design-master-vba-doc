@@ -12,4 +12,4 @@ There are 2 different types of tag used in the add-in. The first one is called *
 
 In the above figure, there are *system tag* 'ID', 'x', 'y', 'z' and 'isRestraint' at the 1st row of the worksheet `Data_Joint`. Take 'x' as an example. The add-in will try to look for the string 'x' in the 1st row of the `Data_joint` sheet to locate the x-coordinate of joints. These string cannot be amended unless the source code is changed. 
 
-**It is noticed that all system tags are necessary except  for those in the summary sheet.** Read [[Customizing Summary Sheet]] for more details about optional system tag.
+**It is noticed that all system tags are necessary except  for those in the summary sheet.** Read [[../02 - Setting Up the Workbook/Customizing Summary Sheet]] for more details about optional system tag.

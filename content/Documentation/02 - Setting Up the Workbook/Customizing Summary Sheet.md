@@ -5,9 +5,9 @@ draft: false
 
 ## 1	Introduction
 A *Summary Sheet* is mainly used by 2 processes:
-- When extract result from the imported data. See [[Extract Frame Force to Summary Table]].
-- When transferring the data to design spreadsheet. See [[Transferring Data From Summary to Design Worksheet]].
-Hence, understanding the behaviour of these 2 processes will help you understanding how to building up the *Summary Sheet*. Also, it is important to understanding the [[05 Tag System|Tag System]] that is used to locate the data for all processes in the add-in.
+- When extract result from the imported data. See [[../05 - Extract Frame Force/Extract Frame Force to Summary Table]].
+- When transferring the data to design spreadsheet. See [[../07 - Summary To Design/Transferring Data From Summary to Design Worksheet]].
+Hence, understanding the behaviour of these 2 processes will help you understanding how to building up the *Summary Sheet*. Also, it is important to understanding the [[../01 - Introduction/05 Tag System|Tag System]] that is used to locate the data for all processes in the add-in.
 ## 2	Structure of Summary Sheet
 - 'rRow' tag.
 - 'targetWS' tag.

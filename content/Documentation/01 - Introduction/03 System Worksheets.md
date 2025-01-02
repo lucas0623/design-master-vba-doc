@@ -12,7 +12,7 @@ The workbook contains the following components:
 	- `Data_System` - contains all data used in the add-in
 
  2. `WSData`. This is a data sheet that contains the input and output location data of a design worksheet. In other words, user may register his/her own Design Worksheet through filling in the input/output location data to this ‘WsData’ sheet.
- 3. `DesignWsGroupData`. This is a data sheet to define a design worksheet group. See [[Design Worksheet Group]] for more information.
+ 3. `DesignWsGroupData`. This is a data sheet to define a design worksheet group. See [[../07 - Summary To Design/Design Worksheet Group]] for more information.
  4. `Define_ConnectionType`. For connection design only. This is used to define the connection types and control the force extraction behaviour for connection design. User may omit this sheet for other design.
  5. **Summary sheets.** They are named in ‘Summary_xxx’. These sheets serve as the link between the imported data from the structural analysis model and the design worksheet. The data in this sheet is located and managed by the ‘Tag System’. There can be any number of Summary sheet in a Workbook. Most of the operations (Extract forces and transfer data to Design Worksheet) are related to the summary sheets.
  6. **Design Worksheet –** this refers to any typical design worksheet we used in our daily design work. The template DM Workbook does not contain any design worksheet. The user shall import their own design worksheet according to their need.
