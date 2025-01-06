@@ -6,7 +6,7 @@ draft: false
 In order to provide flexibility and allow customization for different projects/ different design situations/ design of different types of structure, all tables in the Summary Sheet and the Data Sheets are located using the *tag system*. These tags are located in the first row and the first column of the sheets, which each tag represents one type of data/property. The macro will find these tag to locate the data in the worksheets.
 
 For example, in the `Data_joint` sheet, there is a tag ‘rRow’ in the first column. This represents the header row of a table. The first row of data will be rRow + 1, which is row 3 in this example. There are also some tags in the first row of the sheet, which are ‘ID’, ‘x’, ‘y’, ‘z’ and ‘isRestraint’.
-![[Pasted image 20241231101312.png]]
+![[../../Z_System/Attachment/Pasted image 20241231101312.png]]
 
 
 ## 2	System Tag
