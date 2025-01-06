@@ -8,4 +8,5 @@ When you have questioned about what the add-in did in any operation, or you enco
 
 
 Sometimes excel cannot create log file automictically and an error message may appear warning about the issue. This is usually occur when your workbook is located in your personal onedrive file. In case this happen, please click ok and select any folder through the folder selection window.
+
 ![[../../Z_System/Attachment/{20B2948B-2EDE-45AB-8DBF-23C94E9FBF15}.png]]
