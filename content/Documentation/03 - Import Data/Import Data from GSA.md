@@ -1,7 +1,10 @@
 ---
 draft: false
 ---
-## 1	Export Data from GSA
+## 1	Introduction
+This paragraph will go through the steps of importing data from structural analysis model to the workbook.
+![[../../Z_System/Attachment/ImportData.gif]]
+## 2	Export Data from GSA
 1. In the explorer tab, Go to `Output`,  click any output view. A output window will pop up. 
 2. Then, right click on the window, and choose `Output Setting`. ![[../../Z_System/Attachment/Pasted image 20241230133901.png]]
 3. In the `Output Setting Wizard`, check the following tables:
@@ -15,13 +18,13 @@ draft: false
 7. 
 8. Click `OK` and the output table will be rendered. Then click `Output>Export Output (CSV or TSV file)`. Save the csv table that contains the selected output data in your designated location.
 9. You can save the output view by `right click > save output view`, so that you can directly call out the same output for export directly without navigating through all settings.
-## 2	Import Data to Workbook
+## 3	Import Data to Workbook
 1. Go to the workbook, `Design Master Tab > Import Data > Import GSA Output (Existing Data will be DELETED)`. A file selection box will pop up. Select the .csv data file you saved previously.
 2. When success, a message box will pop up notifying you about the operation completed.![[../../Z_System/Attachment/{49D1FAE2-2963-4AE7-818E-41712617A563}.png]]
 
-## 3	Viewing Import Data
+## 4	Viewing Import Data
 The imported data are stored in the `Data_Joint, Data_Frame and Data_FrameForce` sheets. These sheets are hidden by default, and can be unhide by `right click at the sheet tab > unhide`
-## 4	Q&A
+## 5	Q&A
 - What version of GSA does it support?
 	- The import functions currently work for both GSA 10.1 and 10.2. Update of the add-in might be required in the future if the data format in GSA is changed.
 - Difference between `Import GSA Output (Existing Data will be DELETED)` and `Import GSA Data`.

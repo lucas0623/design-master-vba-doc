@@ -1,10 +1,13 @@
 ---
 draft: false
 ---
-After data is imported to the workbook, you may extract frame force data with `Design Master Tab > Extract Frame Force to Summary Table > by Correspondence Cases`. A userform will appear which give you a selection of option to process and extract data as per your need. The choice of options will be saved and loaded in the next time automatically for certain summary sheet.
+## 1	Introduction
+After data is imported to the workbook, you may extract frame force data with `Design Master Tab > Extract Frame Force to Summary Table > by Correspondence Cases`. 
+![[../../Z_System/Attachment/ExtractData.gif]]
+A userform will appear which give you a selection of option to process and extract data as per your need. The choice of options will be saved and loaded in the next time automatically for certain summary sheet.
 ![[../../Z_System/Attachment/{4A018596-A4C9-427F-BB88-9E23F5B07744}.png]]
 
-## 1	Description of Each Parameter
+## 2	Description of Each Parameter
 Filters - to filter certain properties
 - Section Filter
 - Member Filter
@@ -20,7 +23,7 @@ Correspondence Cases Control
 - Correspondence case - To locate frame forces using certain extreme value, and return the frame forces at the position of a frame under certain load combination that the extreme value located.
 - Create permutation from envelope load combinations - for envelop load combinations, the frame forces are output as a Max and a Min value. when this option is checked, both Max and Min value will be taken into account, and create permutations of frame forces if not considering the absolute maximum value.
 
-## 2	Code Logic
+## 3	Code Logic
 The code logic can the simplified in the following steps:
 1. Read all imported frame forces data
 2. Apply section, member and load combination filters
@@ -33,7 +36,7 @@ The code logic can the simplified in the following steps:
 		1. Find the extreme value of the case.
 		2. Create permutation(s) according to user option (apply when envelop load combination that have 2 frame forces data for an frame element at certain location). Suggest to uncheck this option only when you want to plot graph (e.g. BMD) or the load combinations are not envelope load combination.
 		3. Is consider absolute maximum - for envelope load combination, the direction of the forces and moments may not be important in design (e.g. shear force, moment for symmetric section). In such cases, checking the box(es) so that the Add-in will consider the absolute maximum of the checked forces/moments. For unchecked forces/moments, permutations will be created to ensure all possibilities.
-## 3	Suggest Extraction Setting
+## 4	Suggest Extraction Setting
 Below are some suggested frame extraction setting under different situations for reference.
 - Steel Member Design (Preliminary) 
 	- By section
