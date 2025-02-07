@@ -4,6 +4,8 @@ draft: false
 ## 1	Introduction
 It is often that we need to use certain **Design Worksheet** to carry out calculation for a bulk amount of design data. This add-in provides an automatic way for such repetitive process. This page will discuss the detail of how data are transferred from a **Summary Sheet** to **Any Design Worksheet**. The way to set up your own design worksheet refers [[Setting Up Design Worksheet Input and Output]].
 ![[../../Z_System/Attachment/SummaryToDesign.gif]]
+Below is a data flow diagram of this operation.
+![[../../Z_System/Attachment/Pasted image 20250207153652.png]]
 ## 2	Code Logic
 1. Read all data in the summary table
 2. Read all data in `WSData` and `DesignWsGroupData`
